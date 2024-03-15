@@ -5,7 +5,7 @@ metadata:
 data:
   trafficFilters:
     rules:
-      - name: block-xss
+      - name: block-xss1
         when:
           reqProperty: tier
           equals: "publish"
